@@ -1,0 +1,138 @@
+.nav{
+    background-color: #ff6600;
+}
+.nav-link{
+    color: white;
+}
+.section{
+    margin-top: 5vh;
+}
+.img-thumbnail{
+    height:350px;
+    width: 300px;
+    background-color: black;
+    border: 1px solid black;
+
+}
+.most{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family:'Titre';
+}
+.mostLink:hover{
+    color: #ff6600;
+}
+.mostLink{
+    color: grey;
+    text-decoration: none;
+}
+.mostSymbole{
+    font-family: 'Symbol';
+}
+h1{
+    text-align: center;
+}
+figure{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+figcaption{
+    font-family: 'Texte';
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+.secondLine {
+    text-decoration: line-through #ff6600;
+    padding-left: 60px;
+    font-family: 'Texte';
+    font-size: 3em;
+    text-align: center;
+    padding-top: 120px;
+    color:white;
+    opacity: 0;
+}
+.second{
+    color:white;
+    opacity: 0;
+    font-family: 'Texte';
+    font-size: 3em;
+    text-align: center;
+    padding-top: 90px;
+}
+.text{
+    opacity: 0;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Texte';
+    font-size: 2em;
+}
+.gimli{
+    opacity: 0;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Texte';
+    font-size: 2em;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.middle{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+h1{
+    font-family:'Titre';
+    font-size: 1.5em;
+}
+h3{
+    font-family: 'Texte';
+    font-size: 3em;
+}
+span{
+    color: orangered;
+}
+
+.fontTitre {
+    font-family: 'Titre';
+}
+.fontTexte {
+    font-family: 'Texte';
+    font-size: 1.2em;
+}
+.fontSymbol {
+    font-family: 'Symbol';
+    font-size: 2em;
+}
+
+@font-face{
+    font-family: 'Titre';
+    src:  url('fonts/anicb___.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Texte';
+    src:  url('fonts/partybusiness.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Symbol';
+    src:  url('fonts/tngani.ttf') format('truetype');
+}
+
+.offset-1:hover{
+    opacity:0.6;
+}
+
+.survol:hover .middle p{
+    opacity:1;
+}
+
